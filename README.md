@@ -55,4 +55,4 @@ pnpm package:portable       # build first; produces a package for the current OS
 
 Portable packages include Node and local SQLite for Windows or macOS. **Live voice still needs internet access.** Vercel with a separate remote libSQL database is an optional online deployment. See [deployment](docs/deployment.md) and [contributing](CONTRIBUTING.md).
 
-This repository is a **private recipe preparation**. The project license is still to be chosen; third-party notices are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Public release and Recipes submission remain subject to the [release checklist](docs/release-checklist.md).
+Licensed under the [Apache License 2.0](LICENSE). Third-party components retain their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Event hardware acceptance and Recipes catalog submission are tracked in the [release checklist](docs/release-checklist.md).

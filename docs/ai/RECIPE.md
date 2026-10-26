@@ -141,4 +141,4 @@ Build first. A native Windows or macOS portable package includes the application
 
 Automated tests exercise HTTP behavior, SQLite allocation and recovery, SDK request generation, synthetic media timing, device failures, localization, and browser flows. They do not call live voice services. Validate the actual microphone, TV output, service access, and consecutive guests before an event.
 
-This recipe is currently prepared privately. Project licensing, a live demo video, hardware acceptance, public visibility, and Recipes submission are tracked in the [release checklist](../release-checklist.md).
+Check the [release checklist](../release-checklist.md) for licensing and hardware acceptance status. A local scripted rehearsal does not replace a live test with the service accounts and equipment you plan to use.

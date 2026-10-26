@@ -1,14 +1,23 @@
-# Public release checklist
+# Release checklist
 
-This preparation repository remains private. The draft PR does not publish to the Recipes catalog.
+Source publication, event hardware acceptance, and Recipes catalog submission are separate steps.
 
-- [ ] **Owner chooses a project code license.** No project LICENSE has been added, as requested.
-- [ ] Review the chosen license's treatment of the approved generated host artwork and third-party notices.
-- [ ] Record a short live demonstration video using accounts and hardware approved for public display. Illustrative game exchanges in the guides are not recordings.
+## Repository contents
+
+- [x] Apache License 2.0 selected; root `LICENSE`, `NOTICE`, and package metadata added.
+- [x] Approved host artwork retained; original event prize images replaced with generic icons.
+- [x] Third-party icon, font, UI primitive, and dependency notices preserved.
+- [x] Credential values, real inventory, recordings, and runtime logs excluded from tracked source and clean portable packages.
+
+## Before running an event
+
 - [ ] Validate the voice preset, ASR, model access, English and Chinese on the intended Agora project and region.
 - [ ] Test the actual microphone and TV speakers, including output selection, unplugging devices, permissions, and consecutive guests.
 - [ ] Smoke-test native portable packages on the target macOS and Windows event computers; CI and synthetic media tests do not replace this.
-- [ ] Choose public repository visibility and merge the preparation PR after review.
-- [ ] Recheck the Recipes contribution schema, author attribution, metadata URLs, and submission target; submit the recipe separately.
+- [ ] Record a short live demonstration video using accounts and hardware approved for public display. The game-guide exchanges are illustrative examples.
 
-The supplied `recipe.json` is proposed catalog metadata, not evidence of catalog acceptance. Dependencies are pinned by the lockfile; review their distribution notices before publishing a release archive.
+## Recipes catalog submission
+
+- [ ] Regenerate the catalog artifact from the public main-branch tutorial, check that its Markdown is nonempty with no fetch error, and submit metadata plus generated content to upstream `staging`.
+
+The supplied `recipe.json` is catalog metadata, not evidence of catalog acceptance. Dependencies are pinned by the lockfile; review their notices when publishing a release archive.

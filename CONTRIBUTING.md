@@ -1,6 +1,6 @@
 # Contributing
 
-This private preparation repository is being readied for an Agora Recipe. The project license is pending. Please resolve that before opening public contributions or redistributing the whole project.
+The project is licensed under [Apache License 2.0](LICENSE). Contributions are provided under the same license. Preserve the existing third-party copyright and license notices.
 
 Use Node 24+ and pnpm 12.14.0. Install with `pnpm install --frozen-lockfile`; copy `.env.example` to `.env.local` for local settings. Never commit credentials, real inventory, recordings, or event-specific prize artwork.
 

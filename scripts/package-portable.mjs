@@ -34,6 +34,8 @@ await cp("scripts/catalog.json", join(target, "catalog.json"));
 await cp("scripts/launcher.mjs", join(target, "launcher.mjs"));
 await cp(".env.example", join(target, "config.env"));
 await cp("docs/portable.md", join(target, "README.md"));
+await cp("LICENSE", join(target, "LICENSE"));
+await cp("NOTICE", join(target, "NOTICE"));
 await cp("THIRD_PARTY_NOTICES.md", join(target, "THIRD_PARTY_NOTICES.md"));
 await cp("licenses", join(target, "licenses"), { recursive: true });
 await writeFile(

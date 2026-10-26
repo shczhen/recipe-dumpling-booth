@@ -10,6 +10,6 @@ Node and SQLite are included. Live voice still needs an internet connection. Loc
 
 To restore a full JSON backup, stop the application and run the included runtime against `restore.mjs`, with the backup path and a new destination directory. Point `DATA_DIR` in `config.env` to that directory before restarting. Existing databases are never overwritten.
 
-Project license: pending. Third-party notices are included separately.
+Project license: Apache License 2.0. LICENSE, NOTICE, and third-party notices are included.
 
 Full guide: https://github.com/shczhen/recipe-dumpling-booth/blob/main/docs/deployment.md

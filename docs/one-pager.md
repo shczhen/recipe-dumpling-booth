@@ -1,6 +1,6 @@
 # Dumpling Booth
 
-Recipe preparation · 2026-10-26
+Recipe overview · 2026-10-26
 
 **Build a dual-screen voice AI booth with a playful character, five conversation games, live captions, timed gift announcements, and persistent inventory.** Visitors meet Hu Jiaoman, a quick-witted dumpling shop owner. Developers can use the same setup at an event with their own character, artwork, and prizes.
 
@@ -24,14 +24,14 @@ A default session lasts 120 seconds. The clock starts when the greeting plays. A
 
 The host and game prompts stay separate from application-owned gifts and inventory. Gift and goodbye completion use matching transcript, media timestamps, and a quiet interval. Local scripted rehearsal needs no cloud credentials. Live voice requires a network and the reader's own service access.
 
-## Delivery and release boundary
+## Delivery
 
-Standalone repository: `shczhen/recipe-dumpling-booth`, prepared privately in a draft PR. Keep approved host artwork; replace original prize images with generic Lucide pictograms. Use fresh configuration templates with no internal IDs, keys, URLs, databases, or logs. Project license remains pending by owner choice.
+The implementation lives in `shczhen/recipe-dumpling-booth`. It includes the approved host artwork and generic Lucide prize icons. Configuration templates contain no credentials, and runtime data is excluded from the source repository. Original project code, documentation, and project artwork are licensed under Apache 2.0; third-party licenses are preserved separately.
 
-The [English Recipe](ai/RECIPE.md), Chinese README, game guides, screenshots, local-first instructions, portable packaging, and optional Vercel/libSQL deployment support the eventual submission. Public release still needs a license decision, a short live demo video, and acceptance on actual microphone/TV hardware. These are explicit [release items](release-checklist.md).
+The [English Recipe](ai/RECIPE.md), Chinese README, game guides, screenshots, and delivery guides cover local rehearsal, live voice, customization, portable packaging, and optional Vercel/libSQL deployment. Publication and hardware acceptance status are tracked in the [release checklist](release-checklist.md).
 
 ## Catalog proposal
 
-Title **Dumpling Booth**, slug **dumpling-booth**, platform **TypeScript**, tag **voice-ai**, difficulty **Advanced**, author **shczhen**. `recipe.json` points to `docs/ai/RECIPE.md` on the eventual public main branch. Catalog submission is outside this draft PR; confirm the catalog's current contribution schema when submitting.
+Title **Dumpling Booth**, slug **dumpling-booth**, platform **TypeScript**, tag **voice-ai**, difficulty **Advanced**, author **shczhen**. `recipe.json` points to `docs/ai/RECIPE.md` on the implementation repository's main branch. The source and tutorial must be publicly readable for catalog submission.
 
 Metadata follows the [Recipes contribution guide](https://github.com/AgoraIO-Community/agora-recipes/blob/main/CONTRIBUTING.md) checked on 2026-10-26. Public submission targets `staging`, including generated catalog artifacts; the implementation repository and recipe Markdown must be public at catalog build time.

@@ -56,4 +56,4 @@ pnpm package:portable
 
 先构建再打便携包。Windows 和 macOS 包各自携带 Node 和 SQLite，现场无需安装数据库；**实时语音仍需联网**。也可部署到 Vercel，使用独立的远程 libSQL 库及管理、体验口令。
 
-目前是私有准备仓库，**项目许可证待确认**，尚未向 Recipes 提交。第三方素材许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，发布前事项见[清单](docs/release-checklist.md)。
+采用 [Apache License 2.0](LICENSE)。第三方组件保留各自许可，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，发布前事项见[清单](docs/release-checklist.md)。

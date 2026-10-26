@@ -9,7 +9,7 @@ pnpm build
 pnpm start
 ```
 
-The server reads `.env.local`. Local SQLite is stored under `DATA_DIR` (default `./data`). Rehearsal and formal stock are separate pools. Demo mode is restricted to rehearsal inventory. The guest and staff windows should use the same origin, browser, and profile; the current setup is designed for a TV as an extended display on that computer.
+The server reads `.env.local` and binds to `127.0.0.1` by default. Local SQLite is stored under `DATA_DIR` (default `./data`). Rehearsal and formal stock are separate pools. Demo mode is restricted to rehearsal inventory. The guest and staff windows should use the same origin, browser, and profile; the current setup is designed for a TV as an extended display on that computer.
 
 A live voice session needs internet access to Agora and the configured providers. Local rehearsal can run offline after dependencies or a portable package have been prepared.
 

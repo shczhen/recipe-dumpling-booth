@@ -33,7 +33,7 @@ pnpm dev
 
 自带 LLM 时，同时填写 `LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`。地址使用完整的 Chat Completions 接口，模型填写自己账号实际可用的名称。三项均留空则使用 SDK 提供的服务路径，需要项目有相应服务权限。
 
-观众页选择输入和输出设备，临时录一小段并回放，确认能听到；管理页再选“真实通话”。录音只在浏览器内用于设备检查，不上传。详见[教程](docs/ai/RECIPE.md#2-connect-the-voice-services)。
+观众页选择输入和输出设备，临时录一小段并回放，确认能听到；管理页再选“真实语音”。录音只在浏览器内用于设备检查，不上传。详见[教程](docs/ai/RECIPE.md#2-connect-the-voice-services)。
 
 ## 可以替换什么
 

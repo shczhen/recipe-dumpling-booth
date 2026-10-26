@@ -1,0 +1,6 @@
+src/routeTree.gen.ts
+.output
+.vercel
+data
+releases
+pnpm-lock.yaml

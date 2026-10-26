@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "frame": "/dumpling/art/paper-frame.webp",
+  "hosts": {
+    "welcome": "/dumpling/art/host-welcome.webp",
+    "listening": "/dumpling/art/host-listening.webp",
+    "speaking": "/dumpling/art/host-welcome.webp",
+    "gifting": "/dumpling/art/host-gifting.webp",
+    "paused": "/dumpling/art/host-listening.webp",
+    "thinking": "/dumpling/art/host-thinking.webp"
+  },
+  "clock": "/dumpling/art/clock.webp",
+  "giftImages": [
+    "/dumpling/gifts/prize-1.svg",
+    "/dumpling/gifts/prize-2.svg",
+    "/dumpling/gifts/prize-3.svg",
+    "/dumpling/gifts/prize-4.svg",
+    "/dumpling/gifts/prize-5.svg",
+    "/dumpling/gifts/prize-6.svg",
+    "/dumpling/gifts/prize-7.svg"
+  ],
+  "swash": "/dumpling/art/green-swash.webp",
+  "bubble": "/dumpling/art/speech-bubble.webp",
+  "idleInvitations": [
+    {
+      "zh": "有人来试试美味的饺子吗？",
+      "en": "Who's up for dumplings?"
+    },
+    {
+      "zh": "饺子配酒，越喝越有！",
+      "en": "Dumplings and a drink? Now you're talking!"
+    },
+    {
+      "zh": "来，坐下聊两句。",
+      "en": "Pull up a chair. Let's have a chat."
+    },
+    {
+      "zh": "热乎饺子刚出锅，就等你啦！",
+      "en": "Fresh dumplings! Come and get 'em!"
+    }
+  ]
+}

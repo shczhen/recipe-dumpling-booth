@@ -4,7 +4,7 @@
 
 工作人员用电脑控制开局，电视或扩展屏展示老板娘、字幕和礼品。五种小游戏靠对话进行，程序负责计时、礼品播报和库存。老板娘有待机、听、想、说、送礼等姿态，待机气泡会轮换。
 
-[English](README.md) · [完整 Recipe 教程（英文）](docs/ai/RECIPE.md) · [五种玩法与示例](docs/games.zh-CN.md)
+[English](README.md) · [完整 Recipe 教程](docs/ai/RECIPE.zh-CN.md) · [五种玩法与示例](docs/games.zh-CN.md)
 
 ![中文观众页](docs/assets/guest-zh.png)
 
@@ -33,7 +33,7 @@ pnpm dev
 
 自带 LLM 时，同时填写 `LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`。地址使用完整的 Chat Completions 接口，模型填写自己账号实际可用的名称。三项均留空则使用 SDK 提供的服务路径，需要项目有相应服务权限。
 
-观众页选择输入和输出设备，临时录一小段并回放，确认能听到；管理页再选“真实语音”。录音只在浏览器内用于设备检查，不上传。详见[教程](docs/ai/RECIPE.md#2-connect-the-voice-services)。
+观众页选择输入和输出设备，临时录一小段并回放，确认能听到；管理页再选“真实语音”。录音只在浏览器内用于设备检查，不上传。详见[教程](docs/ai/RECIPE.zh-CN.md#2-接通实时语音)。
 
 ## 可以替换什么
 

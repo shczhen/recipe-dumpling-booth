@@ -1,5 +1,7 @@
 # Build a voice AI dumpling booth
 
+[English](RECIPE.md) · [简体中文](RECIPE.zh-CN.md)
+
 Turn a laptop and a TV into a small dumpling shop. A visitor meets Hu Jiaoman, plays a quick conversation game, and receives a gift. You control the session from the laptop while the TV shows the host, captions, and gift reveal.
 
 This recipe uses TypeScript, TanStack Start, React, shadcn, the Agora Agents SDK, and SQLite. You can rehearse the complete interface locally before connecting voice services.
